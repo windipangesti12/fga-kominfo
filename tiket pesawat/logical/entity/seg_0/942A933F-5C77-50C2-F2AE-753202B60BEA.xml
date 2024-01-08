@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="942A933F-5C77-50C2-F2AE-753202B60BEA" name="Pemesanan Penerbangan">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 13:41:29 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pemesanan" id="6368BCE8-8CE1-F747-D5AD-7F515A43CAA5">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 13:52:55 UTC</createdTime>
+<generatorID>28FAE2C4-4541-2278-1D60-B1349610DED0</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<referedAttribute>2A09771D-8C09-A941-FB90-1384BD3663DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id penerbangan" id="968E3E4E-E338-3813-4326-E5D07A73613D">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 13:53:06 UTC</createdTime>
+<generatorID>50CE8A66-63EE-BA33-ABEC-F6F8AB9E938A</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<referedAttribute>0AB60578-CB6A-51E1-D6F7-A5A1508E33E3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode booking" id="FA71F4F3-4E84-2BED-529B-6549B628BD32">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 13:55:54 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC370D13-59F1-B90D-7B21-E6571CB254C9" name="Jam terbang PK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 13:52:55 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6368BCE8-8CE1-F747-D5AD-7F515A43CAA5</attributeRef>
+<attributeRef>968E3E4E-E338-3813-4326-E5D07A73613D</attributeRef>
+<attributeRef>FA71F4F3-4E84-2BED-529B-6549B628BD32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

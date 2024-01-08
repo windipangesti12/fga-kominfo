@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="08A44B78-1B0A-E188-5A1D-517540A3A130">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 14:59:35 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<targetTransferable>false</targetTransferable>
+<sourcePk>1574C69A-E0C0-0DD7-7B96-90A70A192935</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>digunakan</nameOnSource>
+<nameOnTarget>menggunakan</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>349E38C6-6DE5-2EDE-B835-BE86904F7673</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F251CF0F-41B9-CD7A-4470-9331A467F8E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

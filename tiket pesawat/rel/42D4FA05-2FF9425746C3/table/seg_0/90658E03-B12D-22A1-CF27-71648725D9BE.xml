@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90658E03-B12D-22A1-CF27-71648725D9BE" name="PEMESANAN">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>F251CF0F-41B9-CD7A-4470-9331A467F8E4</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pemesanan" id="C241D4D4-66A5-4542-AFDB-F9ED371D9A80">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>2A09771D-8C09-A941-FB90-1384BD3663DC</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_pemesanan" id="77215FF2-9FC3-FC25-4442-C4DBC83BCF86">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>E471D7E8-6CFF-7B1E-F2A5-C235F0CD2337</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipe_pemesanan" id="E3803E07-4D44-ED2A-BCA0-6A3CD2E7DA4C">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>216D6416-E3A3-67CE-9B20-EF8B271FD8D9</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_pembayaran" id="C3AADC83-C4B1-45DE-284F-36DC45AE2DD2">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>800E9476-B5D0-64F5-CEFE-2353123B8ADB</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PEMESAN_id_pemesan" id="88E7F32E-FA1E-5624-741F-40AD03E1D912">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>4F0B8A62-C7DC-20B0-D06C-B56E4DD93B60</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="664F413E-F7F1-9938-EDF6-4751506957B0" referredColumn="0F809574-1060-84A7-EA47-B6C832BE6335"/>
+</associations>
+</Column>
+<Column name="waktu_pembayaran" id="800DB6EF-1643-FD4D-8E7C-88E48136584D">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>52F28598-02A2-F02E-AE11-AA08EFC58427</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODE_PEMBAYARAN_id_metode_pembayaran" id="3782D65B-8E0A-104A-9F32-80ED2126AE64">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>F60E924C-086C-9E39-603B-3933D782AE10</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7347070A-8805-C8F5-C8FB-FE414308430A" referredColumn="1AFEFE3B-23A0-358A-C536-BAD93DAD8D9E"/>
+</associations>
+</Column>
+<Column name="PROMO_id_promo" id="53D68F38-E634-6BD6-644E-A2646C1DB937">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>3EEFAD69-C312-F677-9D95-524B165F63F9</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F92D1A6-6CBA-C404-7F7F-707DA80F4D66" referredColumn="95920994-591B-94CF-F5FF-6328EA3E2C92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F690C964-34B0-EECB-A04E-E5BA80997017" name="PEMESANAN_PK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>CBB88DB0-485C-8991-9014-3C3C55A21057</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C241D4D4-66A5-4542-AFDB-F9ED371D9A80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDCBD6ED-0C89-D7C8-FCA1-84B516998244" name="PEMESANAN_PROMO_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>CF39C65C-8C1B-67A0-C375-E234980D8378</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53D68F38-E634-6BD6-644E-A2646C1DB937"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E6D2080-B0D2-AA4B-EAD9-ACD7DDB3C262" name="PEMESANAN_METODE_PEMBAYARAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>08A44B78-1B0A-E188-5A1D-517540A3A130</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3782D65B-8E0A-104A-9F32-80ED2126AE64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACD69321-25A8-D969-7DEA-01A00DE3BBB6" name="PEMESANAN_PEMESAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>88FF75DD-77F4-E2D1-DCB8-37AFFB33D9AB</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88E7F32E-FA1E-5624-741F-40AD03E1D912"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

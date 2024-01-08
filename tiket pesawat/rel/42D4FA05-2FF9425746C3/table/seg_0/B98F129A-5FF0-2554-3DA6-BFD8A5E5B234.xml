@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B98F129A-5FF0-2554-3DA6-BFD8A5E5B234" name="PENERBANGAN">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>929088D6-65D3-8792-14F5-8D850CF64F14</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penerbangan" id="17E87E9E-040A-25A3-6A13-4EB9CA2EB352">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>0AB60578-CB6A-51E1-D6F7-A5A1508E33E3</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waktu_keberangkatan" id="D6F954EB-AF85-0BC0-271B-1DB3AC86C5EC">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>1D440969-8F05-6379-3388-414F6B943DCB</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waktu_tiba" id="D722FC6A-159C-2458-3851-F77487475C6E">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>A6479676-A46B-9F0D-D9EC-9437AAACCCB3</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kota_keberangkatan" id="8DBF2447-97E9-3230-1E16-63D6B2904C24">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>65829D11-3981-BDDC-E7E2-0756769271DB</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kota_tujuan" id="1521BB8E-457F-94F2-5C28-2FD2B2B10AC1">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>64C0214F-B004-11C6-D3B2-A79FD219E957</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga" id="9EF59A35-949C-DFC5-E350-506C76211BE2">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>5C02D5D0-0466-B0A1-769F-5AE97CD9924A</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,16,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kuota_kursi" id="7F4C7253-1BC4-1D61-2007-437EA7AF59C1">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>BD0AB18B-43E7-9EFA-6751-299AD09DD1B9</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kuota_bagasi" id="8025327D-D42B-3F64-354E-2C60289CDE75">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>FE370785-50F4-E33F-FED1-C5236E8472FF</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MASKAPAI_id_maskapai" id="74BAFF88-C2FA-82EF-531A-306FE582211D">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>A3B2E619-6813-7154-814B-97D5C945B906</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="189F1BC9-41D2-1DB9-06ED-305C68F455DA" referredColumn="BB8A8275-6BD5-54C9-4BCA-A5FE13F7CF00"/>
+</associations>
+</Column>
+<Column name="jenis_seat" id="849CCD04-1740-5E38-BCD7-935CCB9BC80E">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>7DD02A50-5F6D-472A-5716-ED1C8C2E8424</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CA71A53-DB34-089E-FDF3-B8B53C1FD000" name="PENERBANGAN_PK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>04D457C8-1A37-349C-D962-CA752B672C62</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17E87E9E-040A-25A3-6A13-4EB9CA2EB352"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="705EE7C2-8E93-F598-2723-8FA5267DF5B2" name="PENERBANGAN_MASKAPAI_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>63CCAB52-8932-2720-5EDE-07428616F01C</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74BAFF88-C2FA-82EF-531A-306FE582211D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

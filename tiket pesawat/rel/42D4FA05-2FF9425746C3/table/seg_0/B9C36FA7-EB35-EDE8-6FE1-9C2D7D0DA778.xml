@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9C36FA7-EB35-EDE8-6FE1-9C2D7D0DA778" name="Pemesanan_Penerbangan">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>942A933F-5C77-50C2-F2AE-753202B60BEA</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PEMESANAN_id_pemesanan" id="0CAD335B-E164-1A90-6EB8-0B5505F1045B">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>6368BCE8-8CE1-F747-D5AD-7F515A43CAA5</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76FBCFF6-E716-6276-10F0-DD33160FDF44" referredColumn="C241D4D4-66A5-4542-AFDB-F9ED371D9A80"/>
+</associations>
+</Column>
+<Column name="PENERBANGAN_id_penerbangan" id="45A609DB-6E99-3DE9-AB6B-AB6442BA0AFA">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>968E3E4E-E338-3813-4326-E5D07A73613D</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="733CA9D9-7162-36F0-B171-BEB2D6AFD0C7" referredColumn="17E87E9E-040A-25A3-6A13-4EB9CA2EB352"/>
+</associations>
+</Column>
+<Column name="kode_booking" id="4FCFB251-55CF-D9FD-33A6-057593FD70CA">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>FA71F4F3-4E84-2BED-529B-6549B628BD32</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CDFD48FC-6459-26DC-C7DE-A07E81334F80" name="Pemesanan_Penerbangan_PK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>AC370D13-59F1-B90D-7B21-E6571CB254C9</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CAD335B-E164-1A90-6EB8-0B5505F1045B"/>
+<colUsage columnID="45A609DB-6E99-3DE9-AB6B-AB6442BA0AFA"/>
+<colUsage columnID="4FCFB251-55CF-D9FD-33A6-057593FD70CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FF17F0-CCFA-3B7A-2B70-E4C59B7AEEE7" name="Pemesanan_Penerbangan_PEMESANAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>28FAE2C4-4541-2278-1D60-B1349610DED0</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CAD335B-E164-1A90-6EB8-0B5505F1045B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10F4EAA8-3EB6-D78F-2865-DACC4535ADBE" name="Pemesanan_Penerbangan_PENERBANGAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>50CE8A66-63EE-BA33-ABEC-F6F8AB9E938A</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45A609DB-6E99-3DE9-AB6B-AB6442BA0AFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

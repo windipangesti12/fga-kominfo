@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F9E5DCF-434A-E377-F7E7-A713AD784C66" containerWithKeyObject="D45601E4-60FB-C3B2-AC5F-FB94918A9890" localFKIndex="252579EF-D5D4-40C9-F3FF-6B39B1884363" name="EWALLET_METODE_PEMBAYARAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>B7434948-C87B-61FD-6728-0E207CA72F82</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<referredTableLongName>METODE_PEMBAYARAN</referredTableLongName>
+<arc>CF088A29-F2F1-B7D2-E1BC-83F5AD6632D8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B6096AD-9559-F43A-5836-2806A6D7FBB0</referredTableID>
+<keyObject>CD6DDEA1-5858-74C2-4E24-F5EFE36E4B1E</keyObject>
+<referredKeyID>CD6DDEA1-5858-74C2-4E24-F5EFE36E4B1E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_metode_pembayaran</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

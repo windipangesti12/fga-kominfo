@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0C8C415-8D85-CA1F-7127-0F43A35481B9" name="BANK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:31 UTC</createdTime>
+<generatorID>EBE290F5-CE7C-29AB-BC1E-D002722BAF35</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metode_pembayaran" id="D8B0CADB-E2CD-882C-79C4-22204A649463">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>6B39A1DE-3310-3041-7268-2CE00C63FA0E</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2D1E8C7-2992-34A2-5788-E8640ACC91DC" referredColumn="1AFEFE3B-23A0-358A-C536-BAD93DAD8D9E"/>
+</associations>
+</Column>
+<Column name="nama_bank" id="E18376D4-1ACA-5292-31C5-C86FEC752A1A">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>A7F5C59A-3880-785A-45F9-E6BF2A951CF1</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_rekening" id="F2D8D855-6BC1-C8A5-CA73-F0B892BE044B">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>CECF33E5-BDBC-C31C-0C0E-167E84928126</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kode_bank" id="20EE2439-63EB-57CA-1C5A-D516B8C4A99A">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>E5BFE488-1E47-82FC-FA7B-B21E87E00C05</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4459197A-9B01-06CD-1220-75617EF77F6A" name="BANK_PK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>1574C69A-E0C0-0DD7-7B96-90A70A192935</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B0CADB-E2CD-882C-79C4-22204A649463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BC407D3-662D-8EFD-5F55-2E59E501A7B1" name="BANK_METODE_PEMBAYARAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>D6808DD5-63F5-9819-937A-C9992D3D1FBA</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B0CADB-E2CD-882C-79C4-22204A649463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FA266FD-8DDA-0474-06CE-CCE4DCF68937" name="PENUMPANG">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:15:24 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id penumpang" id="04AB05A0-FE1A-BDDE-3239-9BFFCF03F5A0">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:15:31 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="C4639ADD-573C-76DF-95AD-AA4BBD17BD43">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:15:45 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis kelamin" id="AD722B19-579E-5467-0611-6695EC1031EF">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:16:38 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kategori usia" id="865E44D7-681F-A1E4-3F0A-81E29FE60941">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:16:53 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kewarganegaraan" id="8E58083F-8941-2E90-9B7B-2D6D306B74CC">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:17:53 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id pemesanan" id="3C2DFB44-EB4D-F565-D3BE-CE99AA8D2AED">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 14:26:35 UTC</createdTime>
+<generatorID>369EE1A8-5608-448B-45DA-409544A04A6B</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<referedAttribute>6368BCE8-8CE1-F747-D5AD-7F515A43CAA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id penerbangan" id="0B0D3BA1-0AD5-EF31-B350-A78A127D158F">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 14:26:35 UTC</createdTime>
+<generatorID>369EE1A8-5608-448B-45DA-409544A04A6B</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<referedAttribute>968E3E4E-E338-3813-4326-E5D07A73613D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kode booking" id="C7FA7E13-3E11-4D52-A3CD-80B1AD127F7D">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 14:26:35 UTC</createdTime>
+<generatorID>369EE1A8-5608-448B-45DA-409544A04A6B</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<referedAttribute>FA71F4F3-4E84-2BED-529B-6549B628BD32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis panggilan" id="2D04D0B7-4BBF-4A5B-7AF5-2798173044EF">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 14:35:50 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEC8C79D-55A0-C7D0-B7A8-101B2124FBA9" name="PENUMPANG PK">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 11:15:58 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<engineerTo>
+<item key="42D4FA05-F9A1-8C38-4490-2FF9425746C3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04AB05A0-FE1A-BDDE-3239-9BFFCF03F5A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

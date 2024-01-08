@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="733CA9D9-7162-36F0-B171-BEB2D6AFD0C7" containerWithKeyObject="B9C36FA7-EB35-EDE8-6FE1-9C2D7D0DA778" localFKIndex="10F4EAA8-3EB6-D78F-2865-DACC4535ADBE" name="Pemesanan_Penerbangan_PENERBANGAN_FK">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<generatorID>50CE8A66-63EE-BA33-ABEC-F6F8AB9E938A</generatorID>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<referredTableLongName>PENERBANGAN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B98F129A-5FF0-2554-3DA6-BFD8A5E5B234</referredTableID>
+<keyObject>1CA71A53-DB34-089E-FDF3-B8B53C1FD000</keyObject>
+<referredKeyID>1CA71A53-DB34-089E-FDF3-B8B53C1FD000</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_penerbangan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

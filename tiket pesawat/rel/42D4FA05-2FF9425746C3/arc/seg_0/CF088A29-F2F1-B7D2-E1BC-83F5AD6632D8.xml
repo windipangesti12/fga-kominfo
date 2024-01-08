@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CF088A29-F2F1-B7D2-E1BC-83F5AD6632D8" name="FKArc_5">
+<createdBy>GL553VW</createdBy>
+<createdTime>2023-07-16 16:26:32 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>0B6096AD-9559-F43A-5836-2806A6D7FBB0</table>
+<fkeys>
+<fkeyID>6F9E5DCF-434A-E377-F7E7-A713AD784C66</fkeyID>
+<fkeyID>A2D1E8C7-2992-34A2-5788-E8640ACC91DC</fkeyID>
+</fkeys>
+</FKArc>

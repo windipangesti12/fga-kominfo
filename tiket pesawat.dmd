@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tiket pesawat" id="C96A3E60-262B-5910-A905-82E869667D23" version="3.5">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 10:19:07 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C96A3E60-262B-5910-A905-82E869667D23</designId>
+</OSDM_Design>
