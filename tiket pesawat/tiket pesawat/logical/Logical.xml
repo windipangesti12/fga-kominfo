@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="547A3771-30BD-79A1-B9A6-619FB79276A8" mainViewID="524CF9D5-ADF4-3CAB-49E3-0A91EACFA837">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 10:19:07 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

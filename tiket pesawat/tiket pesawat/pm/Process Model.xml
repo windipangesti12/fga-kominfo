@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="051C8BD8-2DAC-4765-26B6-F334F66625C7">
+<createdBy>Aulia Rahma Putri</createdBy>
+<createdTime>2023-07-16 10:19:07 UTC</createdTime>
+<ownerDesignName>tiket pesawat</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
